@@ -2,23 +2,25 @@ USE employees_db;
 
 INSERT INTO department (name)
 VALUES 
-    ("finance"),
+    ("brokerage"),
+    ("consulting"),
     ("sales"),
     ("trading");
 
     INSERT INTO role (title, salary, department_id)
 VALUES 
-    ("sales person", 100000, 2),
-    ("tradin floor", 200000,3),
-    ("banker", 3000000, 1);
+    ("advisor", 100000, 2),
+    ("trader", 200000,4),
+    ("sales Person", 150000,3),
+    ("broker", 3000000, 1);
 
 
     INSERT INTO employees (first_name, last_name, role_id)
 VALUES 
-    ("Santiago"),
-    ("Santos"),
-    ("role_id"),
-    ("manager_id");
+    ("Santiago", "Perez", 2, 4),
+    ("Santos", "Cruz", 3, 3),
+    ("Alex", "Lina", 4, 1),
+    ("Catherine", "Jhon", 1, 2);
     
 
 
